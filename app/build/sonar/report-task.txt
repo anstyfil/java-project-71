@@ -1,0 +1,7 @@
+organization=anstyfil
+projectKey=anstyfil_java-project-71
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.84853
+dashboardUrl=https://sonarcloud.io/dashboard?id=anstyfil_java-project-71
+ceTaskId=AZ1pXL70PDFMHHyyeoEX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ1pXL70PDFMHHyyeoEX
