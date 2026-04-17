@@ -46,31 +46,31 @@ public class Differ {
             Object value2 = file2.get(key);
 
             if (inFirst && !inSecond) {
-                result.append("- ")
+                result.append("  - ")
                         .append(key)
                         .append(": ")
                         .append(value1)
                         .append("\n");
             } else if (!inFirst && inSecond) {
-                result.append("+ ")
+                result.append("  + ")
                         .append(key)
                         .append(": ")
                         .append(value2)
                         .append("\n");
             } else if (value1.equals(value2)){
-                result.append("  ")
+                result.append("    ")
                         .append(key)
                         .append(": ")
                         .append(value1)
                         .append("\n");
             } else {
-                result.append("- ")
+                result.append("  - ")
                         .append(key)
                         .append(": ")
                         .append(value1)
                         .append("\n");
 
-                result.append("+ ")
+                result.append("  + ")
                         .append(key)
                         .append(": ")
                         .append(value2)
