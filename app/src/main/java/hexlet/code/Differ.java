@@ -1,6 +1,7 @@
 package hexlet.code;
 
 import java.util.Collections;
+import java.util.Objects;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
@@ -43,7 +44,7 @@ public class Differ {
                         .append(": ")
                         .append(value2)
                         .append("\n");
-            } else if (value1.equals(value2)){
+            } else if (Objects.equals(value1, value2)) {
                 result.append("    ")
                         .append(key)
                         .append(": ")

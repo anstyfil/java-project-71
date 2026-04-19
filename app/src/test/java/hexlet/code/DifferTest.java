@@ -31,4 +31,16 @@ public class DifferTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testGenerateStylishDiff() throws Exception {
+        Path path1 = Path.of("src/test/resources/fixtures/file3.json").toAbsolutePath().normalize();
+        Path path2 = Path.of("src/test/resources/fixtures/file4.json").toAbsolutePath().normalize();
+        Path expectedPath = Path.of("src/test/resources/fixtures/resultStylish.txt").toAbsolutePath().normalize();
+
+        String expected = Files.readString(expectedPath).trim();
+        String actual = Differ.generate(path1.toString(), path2.toString()).trim();
+
+        assertEquals(expected, actual);
+    }
 }
