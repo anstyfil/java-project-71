@@ -10,3 +10,5 @@
 [Comparing two flat JSON files](https://asciinema.org/a/0CaKxmjZ0XSzVNqz)
 
 [Comparing two flat YAML files](https://asciinema.org/a/8p0mx5oEI6GvzXkj) 
+
+[Comparing nested JSON files](https://asciinema.org/a/3zVzubjlbXlGikqo)
